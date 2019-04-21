@@ -27,3 +27,11 @@ Our Team:**_warlock-rootx_**
 4.[Geeting_password_link](https://mrrobot.fandom.com/wiki/Ollie_Parker)<br>
 5.[flag_image_link](https://sec-army.ml/hackollie/hacked.html)<br>
 6.[flag_png](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Mr.Robot.png)
+
+
+2)OSINT begins:  200 Points<br>
+
+First In Chall #wearesecarmy handle is given so may be of Social Media Most Probabaly Twitter.[#wearesecarmy](https://twitter.com/search?q=%23wearesecarmy&src=typd)<br>
+You Will Get QR-Code Scan It[QR]() Scan It You Will Get Link and Do **INspect Element** In comment You will find flag
+[flag]()
+
