@@ -33,4 +33,4 @@ Our Team:**_warlock-rootx_**
 3. You, Will, Get Link and Do INspect ELement, In comment, You will find flag [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QRflag.png)
 
 
-3)Starters:
+
