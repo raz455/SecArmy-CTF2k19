@@ -10,10 +10,9 @@ Our Team:**_warlock-rootx_**
    [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/Misc%20Chall%2050)
 
 11)WTF-2:
-   **_[WTF-2](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/WTF_2.png)_**
-
+   **[WTF-2](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/WTF_2.png)**
 12)Fishhy:
-   **_[Fishhy](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/Fishhy.png)_**
+   **[Fishhy](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/Fishhy.png)**
    
    
    
