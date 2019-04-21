@@ -40,8 +40,9 @@ Our Team:**_warlock-rootx_**
 1)Get Me:        50 Points<br>
 
 1. In this chall You have to authenticate successfully for getting flag. [getme](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/getme.png)<br>
-2. Just set value=true for validate. [link](https://sec-army.ml/getme/authenticate.php?val=true)<br>
+2. Just set value=true for validate. (https://sec-army.ml/getme/authenticate.php?val=true)<br>
   [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/getmeflag.png)
+  
   
   
 2)Invisible:  
