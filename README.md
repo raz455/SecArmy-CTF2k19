@@ -1,6 +1,5 @@
 # SecArmy-CTF2k19
-WriteUp of SecArmy CTF  #######    Our Team : "**_warlock-rootx_**"
-
+WriteUp of 
 
 MISC Chall:
 1 to 10 Misc are In:
@@ -11,3 +10,12 @@ MISC Chall:
 
 12)Fishhy:
    **_[Fishhy](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/Fishhy.png)_**
+   
+   
+   
+OSINT Chall:<br>
+
+1)Hack Ollie's Password: 100 Points
+  [link](https://sec-army.ml/hackollie/)
+  
+  
