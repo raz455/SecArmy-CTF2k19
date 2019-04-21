@@ -1,6 +1,6 @@
 1)Welcome Challenge:
 
-  Flag is Already Given In Chall. Description.
+  Flag is Already Given In Chall. "secarmy{welcome_to_the_ctf}"
 
 2)Primitive:
   
@@ -20,29 +20,56 @@
 
 
 5)S3CUR3
-
+  
+  "I want to share files, but security matters:"
   The Chall. is about Secure connection which can be provide by SSH(Secure Shell protocol)
   flag is "secarmy{SSH}"
 
 6)HELP 'A 'OUT !
 
-  The Chall. is about Calling Itself in same Manner in programming that's called recursive function.
-  flag is "secsrmy{RECURSION}"
+  'A' wants to have a conversation with 'C' but he is frightened, because he doesnt want to disturb 'B' as he is a guy with cold behaviour, what networking device should 'A' use to get the job done?
+   flag is Network Device which used in Above Situation, "secarmy{hub}"
+  
+ 
 
-7)Liten it Carefully
 
+7)Go Hackers
+
+  Code is given :package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	a := (strings.Replace("secarmy{G0_iS_tHe_0nLy_w0rlD}", "0", "@", 3))
+	b := (strings.Replace(a, "l", "1", 2))
+	a = b
+	c := (strings.Replace(a, "i", "1", 1))
+	d := (strings.ToLower(c))
+	e := (strings.Replace(d, "y", "7", 1))
+	f := (strings.ToUpper(e))
+	g := (strings.Replace(f, "SEC", "sec", 1))
+	fmt.Println(g)
+}
+
+ flag is "secarmy{}"
+
+
+
+
+8)Do You see?
+  
+  I Repeats myselves in a self similar way all the time. who am i?   The Chall. is about Calling Itself in same Manner in programming that's called recursive function.
+  flag is "secarmy{RECURSION}"
+
+
+
+9)P@cket
    
-
-
-8)Go Hackers
-
-
-
-9)Do You see?
-
-
-
-10)P@cket
+   I am sequenced , but I don't like being connection less
+   flag is "secarmy{TCP}"
 
 
 
