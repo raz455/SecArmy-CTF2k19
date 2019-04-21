@@ -19,7 +19,11 @@ Our Team:**_warlock-rootx_**
    
 **OSINT Chall**:<br>
 
-1)Hack Ollie's Password: 100 Points
-  [link](https://sec-army.ml/hackollie/)
-  
+1)Hack Ollie's Password: 100 Points<br>
+
+  [Chall_link](https://sec-army.ml/hackollie/)<br>
+  [gif](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/olli.gif)<br>
+  [image](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/olli.png)<br>
+  [Geeting_password_link](https://mrrobot.fandom.com/wiki/Ollie_Parker)<br>
+  [flag_image_link](https://sec-army.ml/hackollie/hacked.html)<br>
   
