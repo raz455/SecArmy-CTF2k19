@@ -4,7 +4,8 @@
 WriteUp of Sec-Army-CTF<br>
 Our Team:**_warlock-rootx_**
 
-MISC Chall:
+**MISC Chall**:<br>
+
 1 to 10 Misc are In:
    [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc/Misc%20Chall%2050)
 
@@ -16,7 +17,7 @@ MISC Chall:
    
    
    
-OSINT Chall:<br>
+**OSINT Chall**:<br>
 
 1)Hack Ollie's Password: 100 Points
   [link](https://sec-army.ml/hackollie/)
