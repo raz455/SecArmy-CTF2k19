@@ -37,7 +37,7 @@ Our Team:**_warlock-rootx_**
 2.OSINT begins:  200 Points<br>
 
 1)First In Chall #wearesecarmy handle is given so may be of Social Media Most Probably "Twitter" [#wearesecarmy](https://twitter.com/search?q=%23wearesecarmy&src=typd)<br>
-2)You Will Get QR-Code, Scan It Using QR-Code Scanner [QR](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QR.jpg)
+2)You Will Get QR-Code, Scan It Using QR-Code Scanner [QR](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QR.jpg)<br>
 3)You, Will, Get Link and Do INspect ELement, In comment, You will find [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QRflag.png)
 
 
@@ -117,7 +117,7 @@ GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAG
 4.Tetra Layer Security    200 Points<br>
 
 
-1)It gives green color ASCII values text which has to convert into text the [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Tetra%20layer) and [link](https://sec-army.ml/tetralayersec/).<br>
+1)It gives green color ASCII values text which has to convert into text the [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/TetraLayer) and [link](https://sec-army.ml/tetralayersec/).<br>
 2)After that Using Online [Tool](https://www.browserling.com/tools/ascii-to-text) We have to convert those ASCII to Text Recursively Four Times(Tetra) Press Covert Button Four Times Continuously.<br>
 3)flag is **secarmy{CHar@ct3r$_4Nd_str1ngs}**<br>
 <br>
@@ -258,7 +258,8 @@ Bye bye hacker<br>
 3)By This Link We had Inserted Key [https://sec-army.ml/babyphp/babyphp.php?viewsource&key%5B%5D&secret=0000000001337]
 secret=0000000001337(getting PHP Enumeration) By URLDecode [https://sec-army.ml/babyphp/babyphp.php?viewsource&key[]&secret=0000000001337]
 
-4)After That In Comment We Got [Flag]()
+4)After That In Comment We Got [Flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/babyFlag.png)<br>
+5)Finally flag is **secarmy{php_15_3xpl017abl3_i5nt'17!!}**
 
 
   
