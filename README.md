@@ -31,3 +31,6 @@ Our Team:**_warlock-rootx_**
 1. First In Chall #wearesecarmy handle is given so may be of Social Media Most Probably "Twitter" [#wearesecarmy](https://twitter.com/search?q=%23wearesecarmy&src=typd)
 2. You Will Get QR-Code, Scan It Using QR-Code Scanner [QR](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QR.jpg)
 3. You, Will, Get Link and Do INspect ELement, In comment, You will find flag [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QRflag.png)
+
+
+3)Starters:
