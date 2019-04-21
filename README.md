@@ -55,15 +55,10 @@ Our Team:**_warlock-rootx_**
 
 3.B0T:           80 Points<br>
 
-
+1)In This chall. ask MEE6 BOT In Discord SerVer "!flag" will give flag **secarmy{i_am_sm4rt3r-th3n_b0t}**<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-
-
 
 
 
@@ -81,7 +76,52 @@ Our Team:**_warlock-rootx_**
 
 
 
+
 2.Genetics:           150 Points<br>
+
+
+
+1)The chall gives text of made by A,G,T,C<br>
+
+GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAGACATTTGAACACAAAGAAACCACAGACATTGATAAAAATCCCAAGTAGTCGATTGAATATGAGAATCACGTTGCATACTAGACAGTTGAGACAGTTGCCCACACACCGATTGCATACAAATAGAATGCCACAGTTGCAGATGATAACATTGCACAAAATCAATATGATATTGCATACACCTCATTTGCATATGTTGATAAAAAGGACATTGCATACTAGACAGTTGACACCCACAATCTTGATAATGCACACATTGAGTATGATCACGTTGAAACCCACAATCACGACACACCAGTTGACAATCAATACGAAAATAACATTGATCTTCCATCATACTTCGACCAGTTCTACGTCACATACTTCAATCAGGTTGCAGATTAGAAATACACACATAAAAATCTTGACCAAACACTTGACCCACATGATATTGACTATGATAACATTGGATGGAGCACTGGGTTTGAACAGACACAATCAGTTGATGACCTTGATTCACACACGATTGACACCCACAATCTTGAGATTGAATATGATCCATTTGAGGATCATGCCGTTGCCGACTCGATTGAGATTGAAAATATTGCCGCACAGACATAGAATCACGTTGCATACTACACAGACATTGATAATGCCCAGAACATTGATCAAAATAACACAGTTT<br>
+
+2)This is basically DNA Codes ,You can find More Information from [DNA](https://github.com/allanino/DNA) and [katana](https://github.com/JohnHammond/ctf-katana).<br>
+3)Decrypt Using Given Script in that Github Source You will get [Flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/GENETICflag.txt).<br>
+<br>
+<br>
+<br>
+
+
+
+
+3.Obfuscation??      200 Points<br>
+
+
+1)In This chall. first Using online tool [Cryptii](https://cryptii.com/pipes/hex-to-text) convert hex to text<br>
+2)After That you will be code which should be compiled using [Tool](http://malbolge.doleczek.pl) for getting [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/obfus.png)<br>
+<br>
+<br>
+<br>
+
+
+
+
+4.Tetra Layer Security    200 Points<br>
+
+
+1)It gives green color HEX values text which has to convert into text the [file]()<br>
+2)After that Using Online [Tool](https://www.browserling.com/tools/hex-to-text) We have to convert those HEX to Text Recursively Four Times(Tetra) Press Covert Button Four Times Continuously<br>
+3)At Forth We will get [flag]()<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
 
   
 
