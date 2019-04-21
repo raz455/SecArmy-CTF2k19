@@ -45,8 +45,28 @@ Our Team:**_warlock-rootx_**
   
   
   
-2)Invisible:  
-  
+2)Invisible:     20 Points<br>
+
+
+1.When you open the link page is perfectly blank [Blank_page](https://sec-army.ml/invisible/)<br>
+2.Open Inspect Element There Are many <br> Tags Under body in p tag I would find [flag]().
+
+
+
+3)B0T:           80 Points<br>
+
+
+
+
+
+
+
+
+**Crypto**:<br>
+
+
+1)
+
   
 
 
