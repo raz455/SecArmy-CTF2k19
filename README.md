@@ -31,7 +31,7 @@ Our Team:**_warlock-rootx_**
 
 2)OSINT begins:  200 Points<br>
 
-   First In Chall #wearesecarmy handle is given so may be of _Social Media Most_ Probabaly Twitter.<br>[#wearesecarmy](https://twitter.com/search?q=%23wearesecarmy&src=typd)<br>
-You Will Get QR-Code Scan It[QR]()<br> Scan It You Will Get Link and Do **INspect Element** In comment You will find flag
+   First In Chall #wearesecarmy handle is given so may be of _Social Media Most_ Probabaly "Twitter" [#wearesecarmy](https://twitter.com/search?q=%23wearesecarmy&src=typd)<br>
+You Will Get QR-Code Scan It [QR]()<br> Scan It You Will Get Link and Do **INspect ELement** In comment You will find flag
 [flag]()
 
