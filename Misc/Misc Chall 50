@@ -1,0 +1,58 @@
+1)Welcome Challenge:
+
+  Flag is Already Given In Chall. Description.
+
+2)Primitive:
+  
+  The Chall. is about primitive protocol for  transferring file from server to client without Data Confidentiality That is TELNET port Number 23.
+  flag is "secarmy{TELNET}" 
+
+3)Protocol:
+
+  The Chall. about "Sorry You cant reach",Its basically Packet reachability failure for Assuring "ICMP" protocol is useful.#####ICMP-Internet Control Message Protocol
+  flag is "secarmy{ICMP}"
+
+
+4)CoC
+
+  The Chall. is about Establishment of End-to-End Connection.
+  flag is "secarmy{connection-oriented-communication}"
+
+
+5)S3CUR3
+
+  The Chall. is about Secure connection which can be provide by SSH(Secure Shell protocol)
+  flag is "secarmy{SSH}"
+
+6)HELP 'A 'OUT !
+
+  The Chall. is about Calling Itself in same Manner in programming that's called recursive function.
+  flag is "secsrmy{RECURSION}"
+
+7)Liten it Carefully
+
+   
+
+
+8)Go Hackers
+
+
+
+9)Do You see?
+
+
+
+10)Fishhy.
+
+
+
+11)P@cket
+
+
+
+
+12)WTF-2
+
+ss
+
+
