@@ -35,7 +35,8 @@
 
 7)Go Hackers
 
-  Code is given :package main
+  Code is given :
+  package main
 
 import (
 	"fmt"
@@ -54,7 +55,8 @@ func main() {
 	fmt.Println(g)
 }
 
- flag is "secarmy{}"
+ Above Is Code of "Golang" Languaue: Compile is Using "https://play.golang.org/"
+ The Flag is "secARM7{G@_1S_THE_@NLY_W@R1D}"
 
 
 
