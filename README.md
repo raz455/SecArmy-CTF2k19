@@ -261,6 +261,15 @@ secret=0000000001337(getting PHP Enumeration) By URLDecode [https://sec-army.ml/
 4)After That In Comment We Got [Flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/babyFlag.png)<br>
 5)Finally flag is **secarmy{php_15_3xpl017abl3_i5nt'17!!}**
 <br>
+
+
+4)**Under Construction:** 150 Points<br>
+
+1)The Chall. is about "Try to Login as "admin" [link](https://sec-army.ml/underconstruction/) and TextBox is Disabled, open
+"INspect ELement" then you come to know input is Disabled, So Select on it "EDIT AS HTML" and remove Disabled after that
+Type **admin** in [Textbox](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/underchall.png) and enter.<br>
+2)You would get [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/underconflag.png)<br>
+<br>
 <br>
 <br>
 
