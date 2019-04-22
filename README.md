@@ -10,21 +10,21 @@ Our Team:**_warlock-rootx_**
    [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Misc%20Chall%2050)
    
    
-10)Listen it Carefully:<br>
+10)**Listen it Carefully**:<br>
    
-1)In chall [.mp3](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/listen_it_carefully.mp3) file is given We have to find Morse code for decoding and getting flag.<br>
+1)In challenge [.mp3](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/listen_it_carefully.mp3) file is given We have to find Morse code for decoding and getting flag.<br>
 2)Online [Tool](https://morsecode.scphillips.com/labs/audio-decoder-adaptive/) and Author [INSTA](https://www.instagram.com/stories/highlights/17881432510318843/) post.<br>
 3)flag is **secarmy{wearesecarmy}**
    
    
-11)WTF-2: [WTF-2](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/WTF_2.png)<br>
-12)Fishhy: [Fishhy](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Fishhy.png)
+11)**WTF-2**: [WTF-2](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/WTF_2.png)<br>
+12)**Fishhy**: [Fishhy](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Fishhy.png)
    
    
    
 **OSINT Chall**:<br>
 
-1.Hack Ollie's Password: 100 Points<br>
+1.**Hack Ollie's Password:** 100 Points<br>
 
 1)[Chall_link](https://sec-army.ml/hackollie/)<br>
 2)[gif](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/olli.gif)<br>
@@ -34,7 +34,7 @@ Our Team:**_warlock-rootx_**
 6)[flag_png](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/Mr.Robot.png)
 
 
-2.OSINT begins:  200 Points<br>
+2.**OSINT begins**:  200 Points<br>
 
 1)First In Chall #wearesecarmy handle is given so may be of Social Media Most Probably "Twitter" [#wearesecarmy](https://twitter.com/search?q=%23wearesecarmy&src=typd)<br>
 2)You Will Get QR-Code, Scan It Using QR-Code Scanner [QR](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/QR.jpg)<br>
@@ -45,7 +45,7 @@ Our Team:**_warlock-rootx_**
 **Starters Chall:**<br>
 
 
-1.Get Me:        50 Points<br>
+1.**Get Me**:        50 Points<br>
 
 1)In this chall You have to authenticate successfully for getting flag. [getme](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/getme.png)<br>
 2)Just set value=true for validate. (https://sec-army.ml/getme/authenticate.php?val=true)<br>
@@ -53,7 +53,7 @@ Our Team:**_warlock-rootx_**
   
   
   
-2.Invisible:     20 Points<br>
+2.**Invisible:**     20 Points<br>
 
 
 1)When you open the link page is perfectly blank [Blank_page](https://sec-army.ml/invisible/)<br>
@@ -61,7 +61,7 @@ Our Team:**_warlock-rootx_**
 
 
 
-3.B0T:           80 Points<br>
+3.**B0T:**           80 Points<br>
 
 1)In This chall. ask MEE6 BOT In Discord SerVer "!flag" will give flag **secarmy{i_am_sm4rt3r-th3n_b0t}**<br>
 <br>
@@ -73,7 +73,7 @@ Our Team:**_warlock-rootx_**
 **Crypto**:<br>
 
 
-1.I am not QR Code:   100 Points<br>
+1.**I am not QR Code:**   100 Points<br>
 
 
 
@@ -85,7 +85,7 @@ Our Team:**_warlock-rootx_**
 
 
 
-2.Genetics:           150 Points<br>
+2.**Genetics:**           150 Points<br>
 
 
 
@@ -102,7 +102,7 @@ GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAG
 
 
 
-3.Obfuscation??      200 Points<br>
+3.**Obfuscation??**      200 Points<br>
 
 
 1)In This chall. first Using online tool [Cryptii](https://cryptii.com/pipes/hex-to-text) convert hex to text<br>
@@ -114,7 +114,7 @@ GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAG
 
 
 
-4.Tetra Layer Security    200 Points<br>
+4.**Tetra Layer Security**    200 Points<br>
 
 
 1)It gives green color ASCII values text which has to convert into text the [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/TetraLayer) and [link](https://sec-army.ml/tetralayersec/).<br>
@@ -126,7 +126,7 @@ GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAG
 
 
 
-5.Admin2    100 Points<br>
+5.**Admin2**    100 Points<br>
 
 
 
@@ -138,7 +138,7 @@ GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAG
 
 
 
-6.Alien Languaue  120 Points<br>
+6.**Alien Languaue**  120 Points<br>
 
 
 1)Basically Its Alien Languaue You can get More [Info](https://lingojam.com/AlienLanguage) and Author [INSTA](https://www.instagram.com/stories/highlights/18008925865166435/) post.<br>
@@ -152,7 +152,7 @@ GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAG
 **WEB**:<br>
 
 
-1)who's contract killer ?    50 Points<br>
+1)**who's contract killer ?**    50 Points<br>
 
 
 1)In chall. [Base64](https://www.base64decode.org/) is Given "aHR0cDovLzVocHVjd203c3RraG4zbXluczd2ajRuNzJtNDVlNGV1bnQzaHBxdDNhb2t4YjJ6anM3emphZ2FkLm9uaW9uL"
@@ -165,7 +165,7 @@ decode it You will get [TOR-LINK](http://5hpucwm7stkhn3myns7vj4n72m45e4eunt3hpqt
 
 
 
-2)Silly Mongolian    150 Points<br>
+2)**Silly Mongolian**    150 Points<br>
 
 
 1)Chall [link](https://sec-army.ml/sillymongolian/) after That In INspect ELement we can find [process.js](https://sec-army.ml/sillymongolian/process.js)<br>
@@ -189,7 +189,7 @@ Here's your flag: c2VjYXJteXtzbUBydF9tMG5nMGxfMXNfbXlfZnJpZW5kfQ=="  (base64)<br
 
 
 
-3)BabyPhP:       300 Points:
+3)**BabyPhP:**       300 Points:
 
 
 1)Chall. is about [php](https://sec-army.ml/babyphp/babyphp.php) will get base64 <br>_Jycuam9pbihjaHIob3JkKGkpXjkwKSAgZm9yIGkgaW4gJyk/ND56PT8ueig/Ky8/KS56LykzND16LDM/LSk1Lyg5P3oqOyg7Nz8uPygnKQ==_ and after 
@@ -260,6 +260,61 @@ secret=0000000001337(getting PHP Enumeration) By URLDecode [https://sec-army.ml/
 
 4)After That In Comment We Got [Flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/babyFlag.png)<br>
 5)Finally flag is **secarmy{php_15_3xpl017abl3_i5nt'17!!}**
+<br>
+<br>
+<br>
+
+
+**Forensic**:
+
+
+
+1)**Pcapped:**       200 Points:
+
+
+1)The Chall. gives 404.pcapng we can open using **Wireshark**,When you open it In first packets You would find flag format
+string but Actually That is trap, Those are not flags, So Using Basic file Enumeration I got **ROT47** in _strings_ command
+which is given Below.<br>
+
+
+
+GET /whatis**ROT** HTTP/1.1<br>
+Host: 192.168.46.129:8000<br>
+Connection: keep-alive<br>
+Upgrade-Insecure-Requests: 1<br>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36<br>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3<br>
+Accept-Encoding: gzip, deflate<br>
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8<br>
+HTTP/1.0 404 File not found<br>
+M-SEARCH * HTTP/1.1<b>
+HOST: 239.255.255.250:1900<br>
+MAN: "ssdp:discover"<br>
+MX: 1<br>
+ST: urn:dial-multiscreen-org:service:dial:1<br>
+USER-AGENT: Google Chrome/73.0.3683.86 Linux<br>
+M-SEARCH * HTTP/1.1<br>
+HOST: 239.255.255.250:1900<br>
+MAN: "ssdp:discover"<br>
+MX: 1<br>
+ST: urn:dial-multiscreen-org:service:dial:1<br>
+USER-AGENT: Google Chrome/73.0.3683.86 Linux<br>
+GET **/D642C%3EJL(6b==0%9%60D0%60D06cdJN**
+HTTP/1.1<br>
+Content-Type: text/html<br>
+   
+**BElow ARe FAke FLag**  
+GET /secarmy%7B*******%7D HTTP/1.1  (secarmy{*******})  <br>
+GET /@secarmy%7B%5E789notheflag%7D HTTP/1.1  (secarmy{^789notheflag}) <br>
+<br>
+
+2)By Using [URLDecode](https://www.urldecoder.org/) we would get "/D642C>JL(6b==0%9`D0`D06cdJN" and It is **ROT47**
+Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
+3)Finally We Got flag is **secarmy{We3ll_Th1s_1s_e45y}** <br>
+<br>
+<br>
+<br>
+
 
 
   
