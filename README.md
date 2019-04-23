@@ -91,7 +91,7 @@ Our Team:**_warlock-rootx_**
 
 1)The chall gives text of made by A,G,T,C<br>
 
-GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAGACATTTGAACACAAAGAAACCACAGACATTGATAAAAATCCCAAGTAGTCGATTGAATATGAGAATCACGTTGCATACTAGACAGTTGAGACAGTTGCCCACACACCGATTGCATACAAATAGAATGCCACAGTTGCAGATGATAACATTGCACAAAATCAATATGATATTGCATACACCTCATTTGCATATGTTGATAAAAAGGACATTGCATACTAGACAGTTGACACCCACAATCTTGATAATGCACACATTGAGTATGATCACGTTGAAACCCACAATCACGACACACCAGTTGACAATCAATACGAAAATAACATTGATCTTCCATCATACTTCGACCAGTTCTACGTCACATACTTCAATCAGGTTGCAGATTAGAAATACACACATAAAAATCTTGACCAAACACTTGACCCACATGATATTGACTATGATAACATTGGATGGAGCACTGGGTTTGAACAGACACAATCAGTTGATGACCTTGATTCACACACGATTGACACCCACAATCTTGAGATTGAATATGATCCATTTGAGGATCATGCCGTTGCCGACTCGATTGAGATTGAAAATATTGCCGCACAGACATAGAATCACGTTGCATACTACACAGACATTGATAATGCCCAGAACATTGATCAAAATAACACAGTTT<br>
+<pre>GAGTTGACTATGATTACATTGCGAATGCCATTGACTAAACCCACATTGAAACCACATATGATAAAACATACAAATTTGAGACATTTGAACACAAAGAAACCACAGACATTGATAAAAATCCCAAGTAGTCGATTGAATATGAGAATCACGTTGCATACTAGACAGTTGAGACAGTTGCCCACACACCGATTGCATACAAATAGAATGCCACAGTTGCAGATGATAACATTGCACAAAATCAATATGATATTGCATACACCTCATTTGCATATGTTGATAAAAAGGACATTGCATACTAGACAGTTGACACCCACAATCTTGATAATGCACACATTGAGTATGATCACGTTGAAACCCACAATCACGACACACCAGTTGACAATCAATACGAAAATAACATTGATCTTCCATCATACTTCGACCAGTTCTACGTCACATACTTCAATCAGGTTGCAGATTAGAAATACACACATAAAAATCTTGACCAAACACTTGACCCACATGATATTGACTATGATAACATTGGATGGAGCACTGGGTTTGAACAGACACAATCAGTTGATGACCTTGATTCACACACGATTGACACCCACAATCTTGAGATTGAATATGATCCATTTGAGGATCATGCCGTTGCCGACTCGATTGAGATTGAAAATATTGCCGCACAGACATAGAATCACGTTGCATACTACACAGACATTGATAATGCCCAGAACATTGATCAAAATAACACAGTTT</pre><br>
 
 2)This is basically DNA Codes ,You can find More Information from [DNA](https://github.com/allanino/DNA) and [katana](https://github.com/JohnHammond/ctf-katana).<br>
 3)Decrypt Using Given Script in that Github Source You will get [Flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/GENETICflag.txt).<br>
@@ -270,8 +270,18 @@ secret=0000000001337(getting PHP Enumeration) By URLDecode [https://sec-army.ml/
 Type **admin** in [Textbox](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/underchall.png) and enter.<br>
 2)You would get [flag](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/underconflag.png)<br>
 <br>
+
+
+5)**validation:**   200 Points<br>
+
+1)In this Chall. We have to Redirect Our HTTP Request From Server to [https://sec-army.ml/validation/validation.php] **ViA**
+[https://sec.army] , We can do it Using **Curl** command which is Below<br>
+
+2)~ curl -e "https://sec.army/" https://sec-army.ml/validation/validation.php
+\Hi, I think I seem to know you :)<br><br>Hail SEC-ARMY :P<br><br>Here's a flag for you:<br><b>**secarmy{h34der5_ar3_4ngl35}**
 <br>
 <br>
+<br>   
 
 
 **Forensic**:
@@ -287,7 +297,7 @@ which is given Below.<br>
 
 
 
-GET /whatis**ROT** HTTP/1.1<br>
+<pre>GET /whatis**ROT** HTTP/1.1<br>
 Host: 192.168.46.129:8000<br>
 Connection: keep-alive<br>
 Upgrade-Insecure-Requests: 1<br>
@@ -310,7 +320,7 @@ ST: urn:dial-multiscreen-org:service:dial:1<br>
 USER-AGENT: Google Chrome/73.0.3683.86 Linux<br>
 GET **/D642C%3EJL(6b==0%9%60D0%60D06cdJN**
 HTTP/1.1<br>
-Content-Type: text/html<br>
+Content-Type: text/html<br></pre>
    
 **BElow ARe FAke FLag**  
 GET /secarmy%7B*******%7D HTTP/1.1  (secarmy{*******})  <br>
@@ -320,9 +330,54 @@ GET /@secarmy%7B%5E789notheflag%7D HTTP/1.1  (secarmy{^789notheflag}) <br>
 2)By Using [URLDecode](https://www.urldecoder.org/) we would get "/D642C>JL(6b==0%9`D0`D06cdJN" and It is **ROT47**
 Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 3)Finally We Got flag is **secarmy{We3ll_Th1s_1s_e45y}** <br>
+
+
+2)**WTF:**   150 Points<br>
+
+1)"Dig for the flag", [file]() is given in chall.<br>
+2)first when we checked file It is Empty Also **strings** and **binwalk** command did not work.<br>
+3)Using hexdump command we got Below Output.<br>
+<pre>
+~/ hexdump -C WTF
+00000000  20 09 09 20 20 20 09 09  20 20 09 09 20 20 09 20  | ..   ..  ..  . |
+00000010  20 09 20 09 20 09 09 20  20 09 09 20 09 20 09 20  | . . ..  .. . . |
+00000020  20 09 20 09 09 20 20 09  20 09 20 09 09 20 20 20  | . ..  . . ..   |
+00000030  20 09 20 20 09 20 09 20  20 09 09 09 20 09 20 20  | .  . .  ... .  |
+00000040  20 09 09 20 20 09 20 09  20 09 20 09 09 20 20 20  | ..  . . . ..   |
+00000050  20 09 09 09 20 09 20 20  20 09 20 09 20 09 20 09  | ... .   . . . .|
+00000060  20 09 20 20 09 09 20 09  20 09 20 20 20 09 20 09  | .  .. . .   . .|
+00000070  20 09 09 09 09 20 20 20  20 09 20 20 20 09 20 09  | ....    .   . .|
+00000080  20 09 20 09 09 20 20 20  20 20 09 09 20 20 20 09  | . ..     ..   .|
+00000090  20 09 09 20 09 20 09 09  20 09 09 09 20 09 09 09  | .. . .. ... ...|
+000000a0  20 09 09 20 20 09 20 20  20 09 20 09 20 09 09 20  | ..  .   . . .. |
+000000b0  20 20 09 09 09 20 20 20  20 09 09 09 09 20 20 20  |  ...    ....   |
+000000c0  20 09 20 09 09 20 20 20  20 20 09 09 20 20 20 09  | . ..     ..   .|
+000000d0  20 09 09 20 20 09 20 20  20 09 09 20 09 20 20 20  | ..  .   .. .   |
+000000e0  20 09 20 20 09 09 09 20  20 09 20 09 20 09 09 20  | .  ...  . . .. |
+000000f0  20 20 09 09 09 20 20 09  20 09 09 09 09 20 20 09  |  ...  . ....  .|
+00000100  20 09 20 20 09 09 20 09  20 09 20 09 20 09 09 09  | .  .. . . . ...|
+00000110  20 09 09 20 20 09 20 20  20 09 09 20 09 09 09 09  | ..  .   .. ....|
+00000120  20 09 09 20 20 09 20 20  20 09 20 20 20 09 09 20  | ..  .   .   .. |
+00000130  20 20 09 09 09 20 20 09  20 09 20 20 09 20 20 09  |  ...  . .  .  .|
+00000140  20 09 20 20 09 09 20 09  20 20 09 09 20 20 09 09  | .  .. .  ..  ..|
+00000150  20 09 20 20 09 20 20 09  20 09 09 09 09 20 09 20  | .  .  . .... . |
+00000160  20 09 09 20 20 09 09 20  20 09 20 09 20 20 20 09  | ..  ..  . .   .|
+00000170  20 20 09 09 09 09 20 09  20 20 09 09 09 09 20 09  |  .... .  .... .|
+00000180</pre><br>
+
+4)Generally **hexdump** must print some weird characters and and special characters but in our case only "." and 
+space<br>
+5)So put space to "0" and "." to "1" which gives binary Stream.
+<pre>011000110011001001010110011010100101100101011000010010100111010001100101010110000111010001010101010011010100010101111000010001010101100000110001011010110111011101100100010101100011100001111000010110000011000101100100011010000100111001010110001110010111100101001101010101110110010001101111011001000100011000111001010010010100110100110011010010010111101001100110010100010011110100111101</pre><br>
+6)Convert it to Text So we got **c2VjYXJteXtUMExEX1kwdV8xX1dhNV9yMWdodF9IM3IzfQ==** which is Base64 Decode it.<br>
+7)GOttA flag **secarmy{T0LD_Y0u_1_Wa5_r1ght_H3r3}**<br>
 <br>
 <br>
 <br>
+
+
+
+
 
 
 
@@ -335,7 +390,7 @@ Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 1)In chall. "am3r1cans" Binary is Given, first we have to check whether flag is in plaintext or not
 so using **strings am3r1cans** command we can print all printable strings.<br>
 
-~/**strings am3r1cans**<br>
+<pre>~/ strings am3r1cans<br>
 /lib64/ld-linux-x86-64.so.2<br>
 libc.so.6<br>
 puts<br>
@@ -355,7 +410,7 @@ Usage: %s <key><br>
 ;3$"<br>
 GCC: (Debian 8.2.0-16) 8.2.0<b>
 
-flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**
+flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**</pre>
 <br>
 <br>
 <br>
