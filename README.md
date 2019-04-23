@@ -322,10 +322,10 @@ ST: urn:dial-multiscreen-org:service:dial:1
 USER-AGENT: Google Chrome/73.0.3683.86 Linux
 GET /D642C%3EJL(6b==0%9%60D0%60D06cdJN
 HTTP/1.1
-Content-Type: text/html<br>
+Content-Type: text/html
 FAke FLags: 
-secarmy%7B<pre>*******%7D HTTP/1.1  (secarmy{*******})
-secarmy%7B%5E789notheflag%7D HTTP/1.1 (secarmy{^789notheflag})</pre>
+HTTP/1.1 (secarmy{*******})
+HTTP/1.1 (secarmy{^789notheflag})</pre>
 
 
 2)By Using [URLDecode](https://www.urldecoder.org/) we would get "/D642C>JL(6b==0%9`D0`D06cdJN" and It is ROT47
