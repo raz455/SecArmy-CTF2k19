@@ -335,7 +335,7 @@ Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 
 2)**WTF:**   150 Points<br>
 
-1)"Dig for the flag", [file]() is given in chall.<br>
+1)"Dig for the flag", [file](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/master/WTF) and chall [link](https://ctf.sec.army/challenges#WTF) is given in chall.<br>
 2)first when we checked file It is Empty Also "strings and "binwalk" command did not work.<br>
 3)Using hexdump command we got Below Output.<br>
 <pre>
