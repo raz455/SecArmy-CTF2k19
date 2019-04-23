@@ -326,7 +326,42 @@ Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 
 
 
-  
+**Reversing**
+
+
+1)**am3r1cans:**  250 Points<br>
+
+
+1)In chall. "am3r1cans" Binary is Given, first we have to check whether flag is in plaintext or not
+so using **strings am3r1cans** command we can print all printable strings.<br>
+
+~/**strings am3r1cans**<br>
+/lib64/ld-linux-x86-64.so.2<br>
+libc.so.6<br>
+puts<br>
+printf<br>
+strlen<br>
+cxa_finalize<br>
+libc_start_main<br>
+GLIBC_2.2.5<br>
+_ITM_deregisterTMCloneTable<br>
+gmon_start__<br>
+_ITM_registerTMCloneTable<br>
+checking license for the key: %s<br>
+Access Granted: Well Done! flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**<b>
+Umm......That's WRONG!!!<br>
+try harder this is a easy one!!!<br>
+Usage: %s <key><br>
+;3$"<br>
+GCC: (Debian 8.2.0-16) 8.2.0<b>
+
+flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**
+<br>
+<br>
+<br>
+
+
+
 
 
 
