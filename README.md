@@ -281,7 +281,7 @@ Type **admin** in [Textbox](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/m
 [https://sec.army] , We can do it Using **Curl** command which is Below<br>
 
 2)~ curl -e "https://sec.army/" https://sec-army.ml/validation/validation.php
-\Hi, I think I seem to know you :)<br><br>Hail SEC-ARMY :P<br><br>Here's a flag for you:<br><b>**secarmy{h34der5_ar3_4ngl35}**
+\Hi, I think I seem to know you :)<br><br>Hail SEC-ARMY :P<br><br>Here's a flag for you:<br>**secarmy{h34der5_ar3_4ngl35}**
 <br>
 <br>
 <br>   
@@ -409,7 +409,7 @@ Umm......That's WRONG!!!<
 try harder this is a easy one!!!
 Usage: %s <key>
 ;3$"
-GCC: (Debian 8.2.0-16) 8.2.0<b></pre>
+GCC: (Debian 8.2.0-16) 8.2.0</pre>
 
 flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**
 
