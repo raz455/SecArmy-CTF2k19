@@ -294,43 +294,41 @@ Type **admin** in [Textbox](https://github.com/Darkerhack/SecArmy-CTF2k19/blob/m
 1)**Pcapped:**       200 Points:
 
 
-1)The Chall. gives 404.pcapng we can open using **Wireshark**,When you open it In first packets You would find flag format
-string but Actually That is trap, Those are not flags, So Using Basic file Enumeration I got **ROT47** in _strings_ command
+1)The Chall. gives 404.pcapng we can open using "Wireshark",When you open it In first packets You would find flag format
+string but Actually That is trap, Those are not flags, So Using Basic file Enumeration I got "ROT47" in _strings_ command
 which is given Below.<br>
 
 
 
-<pre>GET /whatisROT HTTP/1.1<br>
-Host: 192.168.46.129:8000<br>
+<pre>GET /whatisROT HTTP/1.1
+Host: 192.168.46.129:8000
 Connection: keep-alive<br>
-Upgrade-Insecure-Requests: 1<br>
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36<br>
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3<br>
-Accept-Encoding: gzip, deflate<br>
-Accept-Language: en-GB,en-US;q=0.9,en;q=0.8<br>
-HTTP/1.0 404 File not found<br>
-M-SEARCH * HTTP/1.1<b>
-HOST: 239.255.255.250:1900<br>
-MAN: "ssdp:discover"<br>
-MX: 1<br>
-ST: urn:dial-multiscreen-org:service:dial:1<br>
-USER-AGENT: Google Chrome/73.0.3683.86 Linux<br>
-M-SEARCH * HTTP/1.1<br>
-HOST: 239.255.255.250:1900<br>
-MAN: "ssdp:discover"<br>
-MX: 1<br>
-ST: urn:dial-multiscreen-org:service:dial:1<br>
-USER-AGENT: Google Chrome/73.0.3683.86 Linux<br>
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+HTTP/1.0 404 File not found
+M-SEARCH  HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Google Chrome/73.0.3683.86 Linux
+M-SEARCH  HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Google Chrome/73.0.3683.86 Linux
 GET /D642C%3EJL(6b==0%9%60D0%60D06cdJN
-HTTP/1.1<br>
-Content-Type: text/html<br></pre>
-   
-BElow ARe FAke FLag 
-GET /secarmy%7B*******%7D HTTP/1.1  (secarmy{*******})  <br>
-GET /@secarmy%7B%5E789notheflag%7D HTTP/1.1  (secarmy{^789notheflag}) <br>
-<br>
+HTTP/1.1
+Content-Type: text/html<br>
+FAke FLags: 
+secarmy%7B<pre>*******%7D HTTP/1.1  (secarmy{*******})
+secarmy%7B%5E789notheflag%7D HTTP/1.1 (secarmy{^789notheflag})</pre>
 
-2)By Using [URLDecode](https://www.urldecoder.org/) we would get "/D642C>JL(6b==0%9`D0`D06cdJN" and It is **ROT47**
+
+2)By Using [URLDecode](https://www.urldecoder.org/) we would get "/D642C>JL(6b==0%9`D0`D06cdJN" and It is ROT47
 Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 3)Finally We Got flag is **secarmy{We3ll_Th1s_1s_e45y}** <br>
 
@@ -391,7 +389,7 @@ space<br>
 
 
 1)In chall. "am3r1cans" Binary is Given, first we have to check whether flag is in plaintext or not
-so using **strings am3r1cans** command we can print all printable strings.<br>
+so using "strings" command we can print all printable strings.<br>
 
 <pre> ~/ strings am3r1cans
 /lib64/ld-linux-x86-64.so.2
@@ -406,8 +404,8 @@ _ITM_deregisterTMCloneTable
 gmon_start__
 _ITM_registerTMCloneTable
 checking license for the key: %s
-Access Granted: Well Done! flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**<b>
-Umm......That's WRONG!!!<br>
+Access Granted: Well Done! flag: secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}
+Umm......That's WRONG!!!<
 try harder this is a easy one!!!
 Usage: %s <key>
 ;3$"
