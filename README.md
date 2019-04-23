@@ -192,21 +192,21 @@ Here's your flag: c2VjYXJteXtzbUBydF9tMG5nMGxfMXNfbXlfZnJpZW5kfQ=="  (base64)<br
 3)**BabyPhP:**       300 Points:
 
 
-1)Chall. is about [php](https://sec-army.ml/babyphp/babyphp.php) will get base64 <br>_Jycuam9pbihjaHIob3JkKGkpXjkwKSAgZm9yIGkgaW4gJyk/ND56PT8ueig/Ky8/KS56LykzND16LDM/LSk1Lyg5P3oqOyg7Nz8uPygnKQ==_ and after 
+1)Chall. is about [php](https://sec-army.ml/babyphp/babyphp.php) will get base64 <br>_Jycuam9pbihjaHIob3JkKGkpXjkwKSAgZm9yIGkgaW4gJyk/ND56PT8ueig/Ky8/KS56LykzND16LDM/LSk1Lyg5P3oqOyg7Nz8uPygnKQ==_ and after<br> 
 decoding will get **'.join(chr(ord(i)^90)  for i in ')?4>z=?.z(?+/?).z/)34=z,3?-)5/(9?z*;(;7?.?(')** basically its py
 for viewsource so we have to see "viewsource" of Babyphp [https://sec-army.ml/babyphp/babyphp.php?viewsource] <br>
 
 **PHP Code**<br>
-s3cur3 PHP<br>
-Hack your way to the flag (^_^)<br>
+<pre>s3cur3 PHP
+Hack your way to the flag (^_^)
 
-<?php<br>
+<?php
  
-include('flag_bb.php');<br>
+include('flag_bb.php');
  
-$msg = "Jycuam9pbihjaHIob3JkKGkpXjkwKSAgZm9yIGkgaW4gJyk/ND56PT8ueig/Ky8/KS56LykzND16LDM/LSk1Lyg5P3oqOyg7Nz8uPygnKQ==";<br>
+$msg = "Jycuam9pbihjaHIob3JkKGkpXjkwKSAgZm9yIGkgaW4gJyk/ND56PT8ueig/Ky8/KS56LykzND16LDM/LSk1Lyg5P3oqOyg7Nz8uPygnKQ==";
 
-if(!isset($_GET['viewsource']))<br>
+if(!isset($_GET['viewsource']))
 {
     die($msg);
 }
@@ -214,14 +214,14 @@ if(!isset($_GET['viewsource']))<br>
 echo "<h2>s3cur3 PHP</h2>";
 echo "Hack your way to the flag (^_^)<br><br>";
 
-highlight_file(__FILE__);<br>
+highlight_file(__FILE__);
  
 if(!isset($_GET['key']))
 {
-    die("Bye bye hacker");<br>
+    die("Bye bye hacker");
 }
  
-if((strcmp($_GET['key'],$key)))<br>
+if((strcmp($_GET['key'],$key)))
 {
     die("Gimme key to the door first!!!");
 }
@@ -236,22 +236,25 @@ if(!isset($_GET['secret']))
 $_p = 1337;
 $_l = 13;
  
-$l = strlen($_GET['secret']);<br>
-$_i = intval($_GET['secret']);<br>
+$l = strlen($_GET['secret']);
+$_i = intval($_GET['secret']);
  
 if($l !== $_l || $_i !== $_p)
 {
-    die("System Failure Detected...");<br>
+    die("System Failure Detected...");
 }
  
-echo "<h3>Yaaay...you have breached the most s3cur3 PHP code</h3>";<br>
-echo "<h3>Here is your flag: ⚑ </h3>";<br>
+echo "<h3>Yaaay...you have breached the most s3cur3 PHP code</h3>";
+echo "<h3>Here is your flag: ⚑ </h3>";
  
 echo "<!--$flag-->";
  
 ?>
-Bye bye hacker<br>
-<br>
+Thanks for the key :P
+
+Yaaay...you have breached the most s3cur3 PHP code
+Here is your flag: ⚑
+</pre>
 
 2)After Analysing code we come to know we have to insert Key for getting flag , by using "curl -x" request or Direct link.<br>
 
@@ -297,7 +300,7 @@ which is given Below.<br>
 
 
 
-<pre>GET /whatis**ROT** HTTP/1.1<br>
+<pre>GET /whatisROT HTTP/1.1<br>
 Host: 192.168.46.129:8000<br>
 Connection: keep-alive<br>
 Upgrade-Insecure-Requests: 1<br>
@@ -318,11 +321,11 @@ MAN: "ssdp:discover"<br>
 MX: 1<br>
 ST: urn:dial-multiscreen-org:service:dial:1<br>
 USER-AGENT: Google Chrome/73.0.3683.86 Linux<br>
-GET **/D642C%3EJL(6b==0%9%60D0%60D06cdJN**
+GET /D642C%3EJL(6b==0%9%60D0%60D06cdJN
 HTTP/1.1<br>
 Content-Type: text/html<br></pre>
    
-**BElow ARe FAke FLag**  
+BElow ARe FAke FLag 
 GET /secarmy%7B*******%7D HTTP/1.1  (secarmy{*******})  <br>
 GET /@secarmy%7B%5E789notheflag%7D HTTP/1.1  (secarmy{^789notheflag}) <br>
 <br>
@@ -335,7 +338,7 @@ Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 2)**WTF:**   150 Points<br>
 
 1)"Dig for the flag", [file]() is given in chall.<br>
-2)first when we checked file It is Empty Also **strings** and **binwalk** command did not work.<br>
+2)first when we checked file It is Empty Also "strings and "binwalk" command did not work.<br>
 3)Using hexdump command we got Below Output.<br>
 <pre>
 ~/ hexdump -C WTF
@@ -365,7 +368,7 @@ Encrypted, So Decrypt Using [This](https://www.dcode.fr/rot-47-cipher).<br>
 00000170  20 20 09 09 09 09 20 09  20 20 09 09 09 09 20 09  |  .... .  .... .|
 00000180</pre><br>
 
-4)Generally **hexdump** must print some weird characters and and special characters but in our case only "." and 
+4)Generally "hexdump" must print some weird characters and and special characters but in our case only "." and 
 space<br>
 5)So put space to "0" and "." to "1" which gives binary Stream.
 <pre>011000110011001001010110011010100101100101011000010010100111010001100101010110000111010001010101010011010100010101111000010001010101100000110001011010110111011101100100010101100011100001111000010110000011000101100100011010000100111001010110001110010111100101001101010101110110010001101111011001000100011000111001010010010100110100110011010010010111101001100110010100010011110100111101</pre><br>
@@ -390,31 +393,27 @@ space<br>
 1)In chall. "am3r1cans" Binary is Given, first we have to check whether flag is in plaintext or not
 so using **strings am3r1cans** command we can print all printable strings.<br>
 
-<pre>~/ strings am3r1cans<br>
-/lib64/ld-linux-x86-64.so.2<br>
-libc.so.6<br>
-puts<br>
-printf<br>
-strlen<br>
-cxa_finalize<br>
-libc_start_main<br>
-GLIBC_2.2.5<br>
-_ITM_deregisterTMCloneTable<br>
-gmon_start__<br>
-_ITM_registerTMCloneTable<br>
-checking license for the key: %s<br>
+<pre> ~/ strings am3r1cans
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+puts
+printf
+strlen
+cxa_finalize
+libc_start_main
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+gmon_start__
+_ITM_registerTMCloneTable
+checking license for the key: %s
 Access Granted: Well Done! flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**<b>
 Umm......That's WRONG!!!<br>
-try harder this is a easy one!!!<br>
-Usage: %s <key><br>
-;3$"<br>
-GCC: (Debian 8.2.0-16) 8.2.0<b>
+try harder this is a easy one!!!
+Usage: %s <key>
+;3$"
+GCC: (Debian 8.2.0-16) 8.2.0<b></pre>
 
-flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**</pre>
-<br>
-<br>
-<br>
-
+flag: **secarmy{d0nt_y0u_th1nk_th1s_w@s_@_e@sy_0n3?}**
 
 
 
