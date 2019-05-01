@@ -157,7 +157,7 @@ Our Team:**_warlock-rootx_**
 
 1)In chall. [Base64](https://www.base64decode.org/) is Given "aHR0cDovLzVocHVjd203c3RraG4zbXluczd2ajRuNzJtNDVlNGV1bnQzaHBxdDNhb2t4YjJ6anM3emphZ2FkLm9uaW9uL"
 decode it You will get [TOR-LINK](http://5hpucwm7stkhn3myns7vj4n72m45e4eunt3hpqt3aokxb2zjs7zjagad.onion) Visit link Using
-[TOR-BROWSER](https://www.torproject.org/download/) and You Would get Another Base64 "c2VjYXJteXsxX2FtX2MwbnRyNGN0X2sxbGwzcn0=" There Decode it.<br>
+[TOR-BROWSER](https://www.torproject.org/download/) and You Would get Another Base64 "c2VjYXJteXsxX2FtX2MwbnRyNGN0X2sxbGwzcn0=" Then Decode it.<br>
 2)flag is **secarmy{1_am_c0ntr4ct_k1ll3r}**<br>
 <br>
 <br>
